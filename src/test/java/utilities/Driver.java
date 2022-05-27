@@ -13,7 +13,7 @@ public class Driver {
        driver olusturup, ilgili ayarlarin yapilmasi
        ve en sonda driver'in kapatilmasi tercih edilmistir.
         */
-    static WebDriver driver;
+   static WebDriver driver;
     public static WebDriver getDriver(){
         if (driver==null) {
             WebDriverManager.chromedriver().setup();
