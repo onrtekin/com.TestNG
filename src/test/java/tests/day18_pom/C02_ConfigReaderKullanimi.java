@@ -1,6 +1,6 @@
 package tests.day18_pom;
 
-import com.github.javafaker.Faker;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.FacebookPage;
