@@ -28,5 +28,7 @@ public class C03_PageClassKullanimi {
         Assert.assertTrue(facebookPage.girilemediYaziElementi.isDisplayed());
         Driver.closeDriver();
 
+
+
     }
 }
