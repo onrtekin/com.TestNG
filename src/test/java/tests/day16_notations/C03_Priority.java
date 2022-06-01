@@ -18,18 +18,19 @@ public class C03_Priority extends TestBase {
     public void amazontest(){
         driver.get("https://www.amazon.com");
         System.out.println(driver.getCurrentUrl());
+        driver.close();
 
     }
     @Test (priority =-2)
     public void test02(){
         driver.get("https://www.bestbuy.com");
         System.out.println(driver.getCurrentUrl());
-
+        driver.close();
     }
     @Test
     public void techproedTesti(){
         driver.get("https://www.techproeducation.com");
         System.out.println(driver.getCurrentUrl());
-
+        driver.close();
     }
 }
