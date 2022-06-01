@@ -34,7 +34,7 @@ public class C04_DependsOnMethods {
     driver.close();
   }
 
-  @Test
+  @Test(groups = {"grup1","grup2"})
   public void test01(){
       //amazona git
       driver.get("https://www.amazon.com");

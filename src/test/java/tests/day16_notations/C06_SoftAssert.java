@@ -18,7 +18,7 @@ public class C06_SoftAssert extends TestBase {
      */
     SoftAssert softAssert=new SoftAssert();
 
-    @Test
+    @Test(groups = "grup2")
     public void test01(){
         //amazona git
         driver.get("https://www.amazon.com");
