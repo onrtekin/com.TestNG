@@ -21,6 +21,8 @@ public class C01_BeforeMethod_AfterMethod extends TestBase {
     @Test
     public void techproedTesti(){
         driver.get("https://www.techproeducation.com");
+        driver.quit();
+
 
     }
 

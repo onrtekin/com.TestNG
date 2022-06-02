@@ -38,12 +38,13 @@ public class C04_DependsOnMethods {
   public void test01(){
       //amazona git
       driver.get("https://www.amazon.com");
-
+    driver.quit();
   }
   @Test (dependsOnMethods="test01")
     public  void test02(){
       // nutella arat
       driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Nutella"+ Keys.ENTER);
+    driver.quit();
   }
 
 
@@ -52,6 +53,7 @@ public class C04_DependsOnMethods {
       //sonuc yazisinin nutella icerdigini testedin
       WebElement sonuc=driver.findElement(By.xpath("//div[@class='a-section a-spacing-small a-spacing-top-small']"));
       Assert.assertTrue(sonuc.getText().contains("Nutella"));
+    driver.quit();
 
   }
 }

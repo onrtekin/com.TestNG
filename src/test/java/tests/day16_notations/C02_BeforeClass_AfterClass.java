@@ -41,6 +41,6 @@ public class C02_BeforeClass_AfterClass extends TestBase {
     public void techproedTesti(){
         driver.get("https://www.techproeducation.com");
         System.out.println(driver.getCurrentUrl());
-
+        driver.quit();
     }
 }

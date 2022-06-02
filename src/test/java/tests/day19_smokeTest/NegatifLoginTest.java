@@ -28,6 +28,7 @@ public class NegatifLoginTest {
 
         //Degerleri girildiginde sayfaya basarili sekilde girilemedigini test et
         Assert.assertTrue(brcPage.ikinciLoginButonu.isDisplayed());
+        Driver.closeDriver();
 
 
     }
@@ -50,6 +51,7 @@ public class NegatifLoginTest {
 
 
         Assert.assertTrue(brcPage.ikinciLoginButonu.isDisplayed());
+        Driver.closeDriver();
 
 
     }

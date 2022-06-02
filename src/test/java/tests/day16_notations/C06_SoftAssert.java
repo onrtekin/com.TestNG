@@ -52,7 +52,7 @@ public class C06_SoftAssert extends TestBase {
 
          */
 
-
+        driver.quit();
 
     }
 

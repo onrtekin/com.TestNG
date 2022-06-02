@@ -31,7 +31,7 @@ public class C05_Assertions extends TestBase {
 
         //arama sonucunun nutella icerdigini test edin
         Assert.assertTrue(sonucYaziElementi.getText().contains("Nutella"));
-
+        driver.quit();
 
     }
 
