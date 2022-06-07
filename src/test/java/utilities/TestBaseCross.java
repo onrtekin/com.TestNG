@@ -18,6 +18,6 @@ public class TestBaseCross {
     }
     @AfterMethod
     public void tearDown(){
-        driver.quit();
+        driver.close();
     }
 }
